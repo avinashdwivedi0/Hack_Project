@@ -1,0 +1,102 @@
+/* === Futuristic Blue UI Theme === */
+
+body {
+  margin: 0;
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(135deg, #03152c, #020c1a);
+  color: #dce8ff;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+/* Navbar */
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 14px 22px;
+  background: rgba(0, 10, 26, 0.6);
+  backdrop-filter: blur(12px);
+  border-bottom: 1px solid #1e5bff;
+  box-shadow: 0 0 20px rgba(30, 112, 255, 0.6);
+}
+
+.logo {
+  font-size: 26px;
+  font-weight: 700;
+  color: #72a6ff;
+  text-shadow: 0 0 14px #1e5bff;
+}
+
+/* Buttons */
+.nav-btn {
+  border: 1px solid #1e5bff;
+  background: transparent;
+  padding: 7px 14px;
+  margin-left: 6px;
+  color: #e3eaff;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.25s;
+}
+
+.nav-btn:hover {
+  background: #1e5bff;
+  box-shadow: 0 0 14px #4ca3ff;
+}
+
+/* Main Content */
+#view {
+  padding: 32px;
+  overflow-y: auto;
+}
+
+/* Cards */
+.card {
+  background: rgba(255, 255, 255, 0.05);
+  border: 1px solid rgba(30, 91, 255, 0.4);
+  padding: 16px;
+  border-radius: 10px;
+  margin-top: 16px;
+  backdrop-filter: blur(10px);
+  box-shadow: 0 0 18px rgba(30, 91, 255, 0.25);
+}
+
+/* Inputs */
+.input, select, textarea {
+  width: 100%;
+  margin-top: 6px;
+  padding: 10px;
+  background: rgba(255,255,255,0.1);
+  color: white;
+  border: 1px solid #1e5bff;
+  border-radius: 8px;
+}
+
+/* Buttons */
+.btn, .neon-btn {
+  padding: 10px;
+  border-radius: 8px;
+  margin-top: 10px;
+  cursor: pointer;
+  border: none;
+  background: #1e5bff;
+  color: white;
+  box-shadow: 0 0 14px rgba(30, 91, 255, 0.6);
+  transition: .25s;
+}
+
+.btn:hover, .neon-btn:hover {
+  box-shadow: 0 0 22px rgba(30, 112, 255, 0.9);
+}
+
+/* Chat Styles */
+.user { border-left: 4px solid #4ca3ff; }
+.bot { border-left: 4px solid #5cd4ff; }
+
+.title {
+  font-size: 25px;
+  margin-bottom: 14px;
+  text-shadow: 0 0 12px #1e5bff;
+}
